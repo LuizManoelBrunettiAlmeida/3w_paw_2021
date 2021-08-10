@@ -1,0 +1,20 @@
+{
+  "name": "3w_paw_2021",
+  "version": "1.0.0",
+  "description": "Criação do primeiro projeto de paw",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i -g @ionic/cli && ionic info",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizManoelBrunettiAlmeida/3w_paw_2021.git"
+  },
+  "author": "Luiz Manoel Brunetti Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizManoelBrunettiAlmeida/3w_paw_2021/issues"
+  },
+  "homepage": "https://github.com/LuizManoelBrunettiAlmeida/3w_paw_2021#readme"
+}
