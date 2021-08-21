@@ -6,14 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  num1 = null;
-  num2 = null;
-  resposta = null;
+  gasolina  = null;
+  etanol    = null;
+  resposta  = null;
 
-  constructor() {}
-  
+  calculoCom = this.etanol / this.gasolina;
+
   calcular(): void{
-    this.resposta = this.num1 + this.num2;
+   if(this.calculoCom < 0,7){
+     this.resposta = 'Etanol';
+   }
+   if(this.calculoCom > 0,7){
+     this.resposta = 'Gasolina';
+   }
   }
+  
+  constructor() {}
 
 }
